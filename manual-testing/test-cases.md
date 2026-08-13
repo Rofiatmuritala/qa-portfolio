@@ -40,11 +40,11 @@ Pass
 
 
 
-## TC-LOGIN-002 — Unsuccessful Login With an Invalid Credentials
+## TC-LOGIN-002 — Unsuccessful Login With an Invalid Username.
 
 **Test ID:** TC-LOGIN-002
 
-**Test Case:** Verify that login fails with an invalid username..
+**Test Case:** Verify that login fails with an invalid username.
 
 **Module:** Login & Authentication
 
@@ -67,11 +67,11 @@ Pass
 
 ### Expected Result
 
-The user should be not be authenticated.
+The user should not be authenticated and should remain on the login page.
 
 ### Actual Result
 
-The user was not authenticated
+The user was not authenticated and remained on the login page.
 
 ### Status
 
@@ -79,11 +79,11 @@ Pass
 
 
 
-## TC-LOGIN-003 — Unsuccessful Login With Invalid Password
+## TC-LOGIN-003 — Unsuccessful Login With Invalid Password.
 
 **Test ID:** TC-LOGIN-003
 
-**Test Case:** Verify that login fails with an invalid password
+**Test Case:** Verify that login fails with an invalid password.
 
 **Module:** Login & Authentication
 
@@ -106,11 +106,11 @@ Pass
 
 ### Expected Result
 
-The user should be not be authenticated.
+The user should not be authenticated and remain on the login page.
 
 ### Actual Result
 
-Username was not authenticated.
+The user was not authenticated and remained on the login page.
 
 ### Status
 
@@ -119,7 +119,7 @@ Pass
 
 
 
-## TC-LOGIN-004 — Unsuccessful Login With Empty Username
+## TC-LOGIN-004 — Unsuccessful Login With Empty Username.
 
 **Test ID:** TC-LOGIN-004
 
@@ -146,11 +146,11 @@ Pass
 
 ### Expected Result
 
-The user should be not successfully authenticated.
+The system should prevent login and display a validation message indicating that the username is required.
 
 ### Actual Result
 
-The user was not successfully authenticated.
+The system prevented login and displayed the message "Username is required."
 
 ### Status
 
@@ -186,11 +186,11 @@ Pass
 
 ### Expected Result
 
-The user should be not successfully authenticated.
+The system should prevent login and display a validation message indicating that the password is required.
 
 ### Actual Result
 
-The user was not authenticated.
+The system prevented login and displayed the message "Password is required."
 
 ### Status
 
@@ -226,11 +226,11 @@ Pass
 
 ### Expected Result
 
-The user should be not successfully authenticated.
+The system should prevent login and display a validation message indicating that the username is required.
 
 ### Actual Result
 
-The user was not authenticated.
+The system prevented login and displayed the message "Username is required."
 
 ### Status
 
@@ -266,15 +266,15 @@ Pass
 
 ### Expected Result
 
-The user should see an Invalid login error message
+The system should prevent authentication and display the appropriate error message for invalid credentials.
 
 ### Actual Result
 
-Invalid login error message was displayed to the user.
+The system prevented authentication and displayed: "Username and password do not match any user in this service"
 
 ### Status
 
-pass
+Pass
 
 
 
@@ -303,16 +303,17 @@ pass
 2. Enter a valid username in the Username field.
 3. Enter a valid password in the Password field.
 4. Click the Login button.
-5. Redirected to the Products page.
-6. Click on the Logout button.
+5. Verify that the user is redirected to the Products page.
+6. Open the navigation menu.
+7. Click the Logout button.
 
 ### Expected Result
 
-The user should be successfully logged out and redirected to the login page.
+The user should be logged out and redirected to the login page.
 
 ### Actual Result
 
-The user should was successfully logged out and redirected to the login page.
+The user was successfully logged out and redirected to the login page.
 
 ### Status
 
