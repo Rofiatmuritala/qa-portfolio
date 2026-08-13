@@ -43,10 +43,24 @@
 * Verify that a user can complete an order successfully.
 * Verify that an order confirmation is displayed after successful checkout.
 
-## 5. Navigation
+
+## 5. Order PDF
+
+* Verify that the system generates a PDF containing the order details.
+* Verify that the generated order PDF can be downloaded successfully.
+* Verify that the downloaded PDF contains accurate order information.
+* Verify that the downloaded order PDF can be opened successfully.
+
+
+## 6. Reset Application
+* Verify that the Reset App State function restores the application to its expected default state.
+  
+
+## 7. Navigation
 
 * Verify that the main navigation menu opens correctly.
 * Verify that a user can navigate back to the Products page.
 * Verify that a user can navigate to the shopping cart.
 * Verify that a user can log out from the application.
 * Verify that a logged-out user cannot access protected pages without logging in.
+
